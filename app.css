@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.completed {
+    color: #999;
+    text-decoration: line-through;
+}
+
+ul {
+    list-style:square;
+    padding: 10;
+}
+
+
+.new.todo button {
+    /* display: block;  */
+    margin: 10px; /* Centered the buttons */
+    background-color: #ff6f6f;
+    border: none;
+    color: #fff;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.5s, transform 0.3s;
+    border-radius: 5px;
+    outline: none;
+}
+
+.new.todo button:hover {
+    background-color: #f00;
+    transform: scale(1.05);
+}
+
+.new.todo button:active {
+    transform: scale(0.95);
+}
+
+.sub {
+    /* display: block; Added this line */
+    margin: 10px; /* Centered the buttons */
+    background-color: #6f89ff;
+    border: none;
+    color: #fff;
+    /* padding: 0.5em 1em; */
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.5s, transform 0.3s;
+    border-radius: 5px;
+    outline: none;
+}
