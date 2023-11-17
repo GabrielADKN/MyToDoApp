@@ -51,6 +51,7 @@ savedTodos.forEach(todoText => {
     const text = document.createElement('span'); // Separate element for text content
     text.textContent = todoText;
     li.appendChild(text);
+    li.classList.add('new', 'todo');
 
     const deleteBtn = document.createElement('button');
     deleteBtn.textContent = 'Delete';
